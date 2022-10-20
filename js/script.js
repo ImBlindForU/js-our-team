@@ -71,9 +71,7 @@ for (let i = 0; i < teamArray.length; i++){
     rowCard.innerHTML += `
     <div class="card">
         <div class="img-card">
-            <img>
-                ${teamMembers.foto}
-            </img>
+            <img src= "img/${teamMembers.foto}"></img>
         </div>
         <div class="text-card">
             <h2>
@@ -82,6 +80,9 @@ for (let i = 0; i < teamArray.length; i++){
             <h3>
                 ${teamMembers.posizione}
             </h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, architecto enim doloribus aut nam magnam iste maxime pariatur. Minus ducimus exercitationem corrupti earum ea et aliquam sapiente eveniet ullam beatae.
+            </p>
         </div>
     </div>`
     

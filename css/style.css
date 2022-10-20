@@ -9,12 +9,12 @@
 
 
 .container{
-    height: 100vh;
-    background-color: lightpink;
+    
+    background-color: rgba(0, 0, 0, 0.699);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
 }
 .card-row{
     width: 80%;
@@ -24,9 +24,56 @@
     justify-content: center;
 }
 
+.title{
+    color: grey;
+    margin: 2rem;
+    padding: 2rem;
+}
 
-.card{
-    margin: 1rem;
+h1{
+    background-color: grey;
+    color: white;
+    width: 15%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 
+.card{
+    margin: 1rem;
+    width: calc(80% / 3);
+    background-color: grey;
+    border-radius: 2rem;
+
+
+}
+.img-card{
+    padding-top: 1rem;
+}
+
+.img-card:hover{
+    opacity: 0.5;
+}
+
+.text-card{
+   color:white ; 
+   padding: 1rem;
+}
+
+p{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+
+h2:hover{
+    color: black;
+}
+h3:hover{
+    color: black;
+}
+p:hover{
+    color: black;
+}
