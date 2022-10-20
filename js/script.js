@@ -63,7 +63,6 @@ const rowCard = document.querySelector(".card-row");
 
 // creazioen variabile per le immagini
 
-let img = document.createElement("img")
 // creazione del cilo for per passare tutti i membri
 for (let i = 0; i < teamArray.length; i++){
     const teamMembers = teamArray[i];
@@ -72,7 +71,9 @@ for (let i = 0; i < teamArray.length; i++){
     rowCard.innerHTML += `
     <div class="card">
         <div class="img-card">
-            ${teamMembers.foto}
+            <img>
+                ${teamMembers.foto}
+            </img>
         </div>
         <div class="text-card">
             <h2>
